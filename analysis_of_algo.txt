@@ -1,0 +1,41 @@
+algorithm is a set of instructions to solve a problem or perform a specific task
+analysis of algorithm depends on two factors:
+1-> time complexity
+2-> space complexity
+
+TIME COMPLEXITY:
+amount of time taken taken by an algorithm to run
+efficient algorithm will take less time  
+if input increase then time increases                                                                                  
+always compute time complexity in terms of worst case = big o
+
+ SPACE COMPLEXITY
+ amount of memory or space taken by an algorithm to run
+
+
+ ASYMPTOTIC ANALYSIS 
+ asymptotic  analysis helps in describing  efficiency of an algorithm in terms  of time and space complexity .It also evaluates  performance of an algorithm 
+
+ -> asymptotic notations are mathematical tools used to describe running time of an algorithm in terms of input size
+ -> it is of three types:
+ Omega Notation ( Ω ): Describes the lower bound of the running time. It provides the best-case complexity.
+ Theta Notation ( Θ ): Describes the exact bound of the running time. It provides the average-case complexity.
+ Big O Notation ( 𝑂 ): Describes the upper bound of the running time. It provides the worst-case complexity.
+
+
+ rules of big o Notation
+
+ ->assignment operation takes 1 unit of time
+ ->return  statement takes  1 unit of time
+ ->arithmetical operation take 1 unit of time ex:x+y
+ ->logical operation takes 1 unit of time ex:z&&y
+ -> DROP LOWER ORDERED TERMS ex: time taken by an algorithm is t=n**2+3n+1 we should drop 3n+1 and we should consider time taken t=o(n**2)
+ -> DROP CONSTANTs ex: 3n**2 is n**2
+
+
+o(1)  CONSTANT
+o(n) linear
+o(n**2) quadratic 
+
+
+ sum of n natural numbers=1+2+3+4+5 formula is (n*n+1)2
