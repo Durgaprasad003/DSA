@@ -1,0 +1,8 @@
+In computer science, data structures are a way to organize and store data so that it can be accessed and modified efficiently. They can be classified into two broad categories: linear and non-linear data structures.
+Linear Data Structures
+Linear data structures store data in a sequential manner. In these structures, elements are stored in a linear order, one after the other. The main characteristic of linear data structures is that they have a single level, and all elements are connected one after the other.
+ex: arrays,linkedlist,stack,graph
+
+Non-linear data structures store data in a hierarchical manner, where a single element can be connected to multiple elements. They are more complex than linear data structures and are used to represent data with relationships.
+ex:trees and graphs
+
