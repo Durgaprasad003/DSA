@@ -4,7 +4,7 @@ analysis of algorithm depends on two factors:
 2-> space complexity
 
 TIME COMPLEXITY:
-amount of time taken taken by an algorithm to run
+amount of time taken taken by an algorithm to run with respect to input size
 efficient algorithm will take less time  
 if input increase then time increases                                                                                  
 always compute time complexity in terms of worst case = big o
